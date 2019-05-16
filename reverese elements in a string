@@ -1,0 +1,18 @@
+#https://www.practicepython.org/exercise/2014/05/21/15-reverse-word-order.html
+
+#takes the array of a string and passes it into the join method to reverse the string
+
+x = input("Please give me a string? ")
+
+result= x.split()
+
+print (result)
+
+
+  
+
+newresult= " ".join(word for word in result[::-1])
+
+
+
+print (newresult)
